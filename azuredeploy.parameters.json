@@ -1,0 +1,30 @@
+﻿{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "existingVNETName": {
+            "value": "vn-aueast-224"
+        },
+        "existingSubnetName": {
+            "value": "sb-int-10-224-50"
+        },
+        "dnsLabelPrefix": {
+            "value": "taueasttst04"
+        },
+        "domainUsername": {
+            "value": "ravi.j"
+        },
+        "availabilitySetName": {
+            "value": "as-aueast-testdeploy"
+        },
+        "storageAccountName": {
+            "value": "saaueaststdlrsinf"
+        },
+        "privateIP": {
+            "value": "10.224.50.23"
+        },
+        "existingVNETRGName": {
+            "value": "Rg-AUEast-Vnet224"
+        }
+    }
+}
